@@ -1,0 +1,166 @@
+header{
+    background-color: deeppink;
+    padding: 0px;
+    margin: 0px;
+}
+
+header::after{
+    content: '';
+    display:  table;
+    clear: both;
+}
+
+.logo{
+    float:left;
+    
+}
+nav{
+    float: center;
+}
+
+nav ul{
+      margin: 0%;
+      padding: 0%;
+    list-style: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 300px; 
+    padding-top: 35px;
+}
+
+
+
+
+
+body{
+    background: #02ed26;
+    padding: 0px;
+    margin: 0px;
+ 
+}
+
+.dropbtn{
+    background-color: deeppink;
+    color: white;   
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    border: none;
+    text-transform:uppercase; 
+    
+}
+
+.dropbtn:hover{
+    color: yellow;
+}
+
+.categoriebutton{
+    position: relative;
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    left: 10px;
+    
+    
+}
+
+.dropdowninfo a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdowninfo a:hover{
+    color: yellow;
+}
+
+.categoriebutton:hover .dropdowninfo {
+  display: block;
+}
+
+.categoriebutton:hover .dropbtn {
+  background-color: black; 
+}
+
+.dropdowninfo {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 77px;  
+}
+
+ .freemoney{
+     position: relative;
+    display: inline-block;
+    margin: 34px;
+    padding: 0px;
+    left: 300px
+}
+
+.aboutbutton{
+    position: relative;
+    display: inline-block;
+    margin: 34px;
+    padding: 0px;
+}
+
+
+.fmb {
+    position: relative;
+    display: inline-block;
+    margin: 34px;
+    padding: 0px;
+    left: 300px
+}
+
+
+.returnbutton{
+    position: relative;
+    display: inline-block;
+    margin: 34px;
+    padding: 0px;
+    left: 800px;
+}
+
+
+.intro{
+    font-size: 11px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    
+         }
+
+.tucan{
+    float: left;
+  width: 30%;
+  padding: 5px;
+}
+.ram{
+    float: left;
+     width: 30%;
+  padding: 5px;
+}
+
+.pluto{
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.overflow{ 
+  background-color: lightblue;
+  width: 250px;
+  height: 250px;
+  overflow: scroll;
+}
+
+table, th, td {
+      border:1px solid black;
+}
